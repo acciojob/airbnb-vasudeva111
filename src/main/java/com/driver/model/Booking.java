@@ -30,14 +30,17 @@ public class Booking {
     }
 
     public String getBookingId() {
+
         return bookingId;
     }
 
     public void setBookingId(String bookingId) {
+
         this.bookingId = bookingId;
     }
 
     public int getBookingAadharCard() {
+
         return bookingAadharCard;
     }
 
@@ -46,6 +49,7 @@ public class Booking {
     }
 
     public int getNoOfRooms() {
+
         return noOfRooms;
     }
 
@@ -54,26 +58,32 @@ public class Booking {
     }
 
     public String getBookingPersonName() {
+
         return bookingPersonName;
     }
 
     public void setBookingPersonName(String bookingPersonName) {
+
         this.bookingPersonName = bookingPersonName;
     }
 
     public String getHotelName() {
+
         return hotelName;
     }
 
     public void setHotelName(String hotelName) {
+
         this.hotelName = hotelName;
     }
 
     public int getAmountToBePaid() {
+
         return amountToBePaid;
     }
 
     public void setAmountToBePaid(int amountToBePaid) {
+
         this.amountToBePaid = amountToBePaid;
     }
 }
